@@ -1,0 +1,23 @@
+{
+  "name": "shopkart-auth-service",
+  "version": "1.0.0",
+  "description": "ShopKart customer authentication service for Engineering Lab 01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "check": "node --check index.js && node --check controllers/customer.controller.js && node --check controllers/product.controller.js && node --check controllers/wishlist.controller.js && node --check controllers/cart.controller.js && node --check controllers/order.controller.js && node --check models/customer.model.js && node --check models/product.model.js && node --check models/order.model.js && node --check routes/customer.routes.js && node --check routes/product.routes.js && node --check routes/wishlist.routes.js && node --check routes/cart.routes.js && node --check routes/order.routes.js && node --check middlewares/auth.middleware.js && node --check utils/generateToken.js && node --check config/razorpay.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "razorpay": "^2.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

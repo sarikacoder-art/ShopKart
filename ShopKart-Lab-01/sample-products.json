@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mechanical Keyboard",
+    "description": "RGB mechanical keyboard with blue switches.",
+    "price": 2999,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600",
+    "stock": 10
+  },
+  {
+    "name": "Wireless Headphones",
+    "description": "Wireless over-ear headphones with good sound quality.",
+    "price": 4999,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600",
+    "stock": 25
+  },
+  {
+    "name": "Cotton T-Shirt",
+    "description": "Comfortable regular-fit cotton t-shirt.",
+    "price": 699,
+    "category": "Fashion",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600",
+    "stock": 40
+  },
+  {
+    "name": "JavaScript Book",
+    "description": "Beginner-friendly book for learning modern JavaScript.",
+    "price": 549,
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600",
+    "stock": 15
+  },
+  {
+    "name": "Table Lamp",
+    "description": "Simple study lamp with adjustable neck.",
+    "price": 899,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600",
+    "stock": 0
+  }
+]
